@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "lockspvp",
+  "version": "1.0.0",
+  "name": "LOCKSPVP",
+  "description": "LOCKSPVP: hide keybinds in the controls menu, with a lock button to reveal them.",
+  "environment": "client",
+  "mixins": [
+    "lockspvp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

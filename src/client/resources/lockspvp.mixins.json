@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.lockspvp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyEntryAccessor",
+    "KeyEntryMixin",
+    "KeyBindsListMixin",
+    "KeyBindsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
