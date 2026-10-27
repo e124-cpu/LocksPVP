@@ -6,3 +6,6 @@ mutableKeyBindings.removeIf(keyBinding ->
 );
 
 return mutableKeyBindings;
+import java.util.ArrayList;
+import java.util.List;
+import net.minecraft.client.option.KeyBinding;
